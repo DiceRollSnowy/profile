@@ -7,7 +7,7 @@ async function loadFooter2()
         return;
     }
 
-    const response = await fetch("components/footer2.html");
+    const response = await fetch("../components/footer2.html");
     if (!response.ok) 
     {
         console.error("フッターの読み込みに失敗しました");

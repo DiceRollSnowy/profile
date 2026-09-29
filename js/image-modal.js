@@ -6,7 +6,7 @@ async function loadImageModal()
         return;
     }
 
-    const response = await fetch("components/image-modal.html");
+    const response = await fetch("../components/image-modal.html");
     if (!response.ok) 
     {
         console.error("ヘッダーの読み込みに失敗しました");
