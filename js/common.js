@@ -7,7 +7,7 @@ async function loadHeader()
         return;
     }
 
-    const response = await fetch("../components/header.html");
+    const response = await fetch("components/header.html");
     if (!response.ok) 
     {
         console.error("ヘッダーの読み込みに失敗しました");
@@ -28,7 +28,7 @@ async function loadFooter()
         return;
     }
 
-    const response = await fetch("../components/footer.html");
+    const response = await fetch("components/footer.html");
     if (!response.ok) 
     {
         console.error("フッターの読み込みに失敗しました");
